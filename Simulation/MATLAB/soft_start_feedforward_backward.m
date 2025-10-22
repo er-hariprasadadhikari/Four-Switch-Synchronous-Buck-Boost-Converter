@@ -8,8 +8,8 @@ t_sim = 1e-3;
 Vtrans=6;
 T_transient=0.0005;
 %%%% Initializing simulation 
-open_system('buck_converter_VMC_soft.slx')
-sim('buck_converter_VMC_soft.slx')
+open_system('buck_converter_VMC_soft_feedforward.slx')
+sim('buck_converter_VMC_soft_feedforward.slx')
 t=ans.simout_buck.time;
 x=ans.simout_buck.data;
 
