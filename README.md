@@ -44,8 +44,8 @@ The converter uses **Arduino Nano** for control, **IR2104** MOSFET drivers, and 
 ## 📊 Efficiency Results
 | Mode | Input (V) | Output (V) | Efficiency |
 |------|------------|-------------|-------------|
-| Buck | 12 → 5.9V  | 92–93%      |
-| Boost| 12 → 23.8V | 85–89%      |
+| Buck | 12         |  5.9V       | 92–93%
+| Boost| 12         | 23.8V       | 85–89% 
 
 ---
 
